@@ -17,4 +17,4 @@ bar(foo, qux);
 
 
 console.log(foo.a); // This should return 'hi' this is taking the foo object and argument1.a is foo.a = 'hi'
-console.log(qux);  // This should return 'hello'. argument2 is trying to mutate a primitive value, argument 2 is trying to change variable qux to argument 2
+console.log(qux);  // This should return 'hello'. argument2 is trying to mutate a primitive value, argument2 is trying to change variable qux to argument2
