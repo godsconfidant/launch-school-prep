@@ -4,6 +4,8 @@
 for (let i = 0; ;i += 1) {
   console.log('on and on');
 
+  break;
+
   --- adding a break statement will also stop loop, but will do so on first iteration; ----
 }
 
