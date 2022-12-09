@@ -9,7 +9,7 @@ let person = {
     boxing: 'Cus Dmata',
     wresting: 'Dan Severn',
     karate: 'Mr. Myagi'
-  },
+  }
   felon: true,
 };
 
