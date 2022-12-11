@@ -9,7 +9,7 @@ let person = {
     boxing: 'Cus Dmata',
     wresting: 'Dan Severn',
     karate: 'Mr. Myagi'
-  }
+  },
   felon: true,
 };
 
@@ -19,4 +19,4 @@ function persClone(obj) {
 }
 ds
 
-console.log(persClone(person));
+console.log(persClone(person))
