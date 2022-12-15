@@ -1,0 +1,22 @@
+# Question 1
+
+#Regarding loops. The let upperCaseName = names[index].toUpperCase()..
+##------>>			If I forget to add the [index] to names like this:   let upperCaseName = name.toUpperCase()  the error I get says toUpperCase() is
+##                               not a function. I don't understand why it gives that error.
+
+let names = ['bob', 'tom', 'jerry', 'max', 'ben', 'mary'];
+let upperArr = [];
+let index = 0;
+
+while (index < names.length) {
+ let upperCaseNames = names[index].toUpperCase();
+ upperArr.push(upperCaseNames)
+ index += 1
+}
+
+console.log(upperArr)
+
+
+#Question 2
+
+

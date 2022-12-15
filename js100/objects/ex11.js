@@ -15,8 +15,8 @@ let person = {
 
 
 function persClone(obj) {
-   return Array.
-}
-ds
+   return Array
+};
+
 
 console.log(persClone(person))
